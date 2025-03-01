@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index.com</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="page_heading">
+        <div class="page_headers">
+            <a href="index.html">
+                <header>Home</header>
+            </a>
+            <a href="about.html">
+                <header>About</header>
+            </a>
+            <a href="contact.html">
+                <header>Contact</header>
+            </a>
+        </div>
+        <h2>WELCOME TO UNOFFICIAL</h2>
+    </div>
+    <div class="reg_container">
+        <form action="#" method="post" id="reg_form">
+            <h4>Register</h4>
+            <input type="text" name="regname" id="regname" placeholder="Name" required /><br />
+            <input type="email" name="useremail" id="useremail" placeholder="Email" required /><br />
+            <input type="password" name="userpassword" id="userpassword" placeholder="Password" required /><br />
+            <input type="password" name="userpassword_confirm" id="userpassword_confirm" placeholder="Re-Enter Password"
+                required /><br />
+            <input type="submit" value="Register" id="reg_input" /><br />
+            <input type="reset" value="Cancel" id="reset_input" />
+        </form>
+        <div class="reg_message">
+            <p id="regmessage"></p>
+        </div>
+    </div>
+    <div class="log_container">
+        <div>
+            <hr class="page_line">
+        </div>
+        <form action="#" method="post" id="log_form">
+            <h4>Login</h4>
+            <input type="text" name="logname" id="logname" placeholder="Name" required /><br />
+            <input type="password" name="logpassword" id="logpassword" placeholder="Password" required /><br />
+            <input type="checkbox" name="rememberMe" id="rem_input" />Remember Me. <br />
+            <input type="submit" value="Login" id="log_input" /><br />
+            <input type="reset" value="Cancel" id="reset_input" />
+        </form>
+        <div class="log_message">
+            <p id="logmessage"></p>
+        </div>
+    </div>
+    <div class="copyright">
+        <footer>This is our unofficial website &copy;2025</footer>
+    </div>
+</body>
+<script src="index.js">
+
+</script>
+
+</html>

@@ -1,0 +1,107 @@
+body {
+    font-size: 15px;
+    font-family: SF Pro Display;
+    display: flex;
+    display: block;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.page_line{
+    width: 300px;
+}
+
+.page_headers {
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    margin: 3px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+.page_heading {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+}
+
+.reg_container {
+    text-align: center;
+}
+
+.reg_container input {
+    width: 163px;
+    border-radius: 5px;
+    border-width: 0.01cm;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: SF Pro Display;
+}
+
+#reg_input,
+#log_input,
+#reset_input {
+    width: 185px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.log_container {
+    text-align: center;
+}
+
+#logname, #logpassword{
+    width: 163px;
+}
+
+.log_container input {
+    border-radius: 5px;
+    border-width: 0.01cm;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: SF Pro Display;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#rem_input {
+    accent-color: blueviolet;
+}
+
+.reg_message,
+.log_message {
+    color: red;
+    font-size: 12px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+}
